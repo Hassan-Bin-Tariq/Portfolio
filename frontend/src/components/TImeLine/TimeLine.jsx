@@ -9,8 +9,36 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import { Event } from "@mui/icons-material";
 import Typography from "@mui/material/Typography";
 
-export const TimeLine = () => {
+export const TimeLine = ({timelines=[]}) => {
   return (
-    <div>TimeLine</div>
-  )
-}
+    <div>
+      <Timeline position = "alternate">
+
+        {
+          timelines.map((item,index)=>(
+            <TimelineItem key={index}>
+                <TimelineOppositeContent sx = {{m:"auto 0"}}
+                align = "right"
+                variant='body2'
+                color = "text.secondary">
+                  8/9/2022
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineConnector/>
+                  <TimelineDot>
+                    <Event></Event>
+                  </TimelineDot>
+                  <TimelineConnector/>
+                </TimelineSeparator>
+                <TimelineContent sx = {{py:"12px",px: 2}}>
+                  <Typography variant='h6'>Title</Typography>
+                  <Typography >Description</Typography>
+                </TimelineContent>
+
+            </TimelineItem>
+          ))}
+      </Timeline> 
+    </div>
+  );
+};
+export default TimeLine;
