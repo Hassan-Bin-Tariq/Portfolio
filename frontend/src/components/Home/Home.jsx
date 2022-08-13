@@ -7,6 +7,18 @@ import venusImage from "../../Images/venus.jpg"
 import spaceImage from "../../Images/space.jpg"
 import {Typography} from "@mui/material"
 import TimeLine from '../TimeLine/TimeLine';
+import {
+    SiCplusplus,
+    SiReact,
+    SiJavascript,
+    SiMongodb,
+    SiNodedotjs,
+    SiExpress,
+    SiCss3,
+    SiHtml5,
+    SiThreedotjs,
+  } from "react-icons/si";
+
 
 const Home = () => {
 
@@ -142,7 +154,18 @@ const Home = () => {
                     />
                 </div>
             </div>
-            <div className="cubeShadow"></div>dow
+            <div className="cubeShadow"></div>
+            <div className="homeskillsBox">
+                <SiCplusplus />
+                <SiHtml5 />
+                <SiCss3 />
+                <SiJavascript />
+                <SiMongodb />
+                <SiExpress />
+                <SiReact />
+                <SiNodedotjs />
+                <SiThreedotjs />
+            </div>
         </div>
     </div>;
 };
