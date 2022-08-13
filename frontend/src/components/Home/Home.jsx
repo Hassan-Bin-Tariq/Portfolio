@@ -18,7 +18,7 @@ import {
     SiHtml5,
     SiThreedotjs,
   } from "react-icons/si";
-
+import YoutubeCard from '../YoutubeCard/YoutubeCard';
 
 const Home = () => {
 
@@ -166,6 +166,28 @@ const Home = () => {
                 <SiNodedotjs />
                 <SiThreedotjs />
             </div>
+        </div>
+        <div className="homeYoutube">
+            <Typography variant='h3'> YOUTUBE VIDEOS</Typography>
+            <div className="homeYoutubeWrapper">
+                <YoutubeCard 
+                image="https://nationaltoday.com/wp-content/uploads/2020/08/international-cat-day.jpg" 
+                title="Sample Video"
+                />  
+                <YoutubeCard 
+                image="https://nationaltoday.com/wp-content/uploads/2020/08/international-cat-day.jpg" 
+                title="Sample Video"
+                />  
+                <YoutubeCard 
+                image="https://nationaltoday.com/wp-content/uploads/2020/08/international-cat-day.jpg" 
+                title="Sample Video"
+                />  
+                <YoutubeCard 
+                image="https://nationaltoday.com/wp-content/uploads/2020/08/international-cat-day.jpg" 
+                title="Sample Video"
+                />  
+            </div>
+            
         </div>
     </div>;
 };
