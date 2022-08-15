@@ -1,12 +1,17 @@
 import { Button, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import React from 'react'
+
 import "./Contact.css"
 
 const Contact = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+
+    const contactFormHandler = (e) => {
+        e.preventDefault();
+    };
+
   return (
     <div className='contact'>
         <div className="contactRightBar"></div>
@@ -15,18 +20,21 @@ const Contact = () => {
                 <Typography variant="h4">Cotact Us</Typography>
                 <input 
                   type="text" 
-                  placeholder='Name' 
+                  placeholder='Name'
+                  required 
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   />
                 <input 
                     type="email" 
                     placeholder='Email'
+                    required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                  />
                 <textarea 
                     placeholder='Message' 
+                    required
                     cols="30" 
                     rows="10"
                     value={message}
