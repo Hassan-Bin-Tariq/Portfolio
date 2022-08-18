@@ -168,7 +168,7 @@ const Home = () => {
             </div>
         </div>
         <div className="homeYoutube">
-            <Typography variant='h3'> YOUTUBE VIDEOS</Typography>
+            <Typography variant='h3'> Projects</Typography>
             <div className="homeYoutubeWrapper">
                 <YoutubeCard 
                 image="https://nationaltoday.com/wp-content/uploads/2020/08/international-cat-day.jpg" 
