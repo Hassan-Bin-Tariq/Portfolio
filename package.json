@@ -5,7 +5,7 @@
   "main": "backend/server.js",
   "type": "module",
   "scripts": {
-    "dev":"nodemailer backend/server.js"
+    "dev":"nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
