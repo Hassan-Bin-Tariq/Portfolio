@@ -1,6 +1,6 @@
 train: data/train/images
 val: data/valid/images
-#Yaml file workig
+#portfolio
 nc: 1
 
 names: ["face"]
