@@ -1,6 +1,5 @@
 train: data/train/images
 val: data/valid/images
-#portfolio
 nc: 1
 
 names: ["face"]
