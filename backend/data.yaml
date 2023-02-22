@@ -1,5 +1,6 @@
 train: data/train/images
 val: data/valid/images
+#asdas
 nc: 1
 
 names: ["face"]
