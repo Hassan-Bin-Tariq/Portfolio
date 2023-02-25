@@ -1,6 +1,6 @@
 train: data/train/images
 val: data/valid/images
-
+#dataset
 nc: 1
 
 names: ["face"]
