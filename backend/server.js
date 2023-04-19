@@ -11,5 +11,14 @@ function objectSetter()
 {
     console.log(working)
     var first;
-    const user = "Ali@gmail.com"  //hardcoding the user
+    const user = "Ali@gmail.com" 
 }
+
+function add(a, b) {
+    return a + b;
+  }
+  
+  // Usage example:
+  const sum = add(5, 7);
+  console.log(sum); // Output: 12
+  
