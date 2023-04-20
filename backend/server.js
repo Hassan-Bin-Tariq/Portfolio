@@ -13,12 +13,3 @@ function objectSetter()
     var first;
     const user = "Ali@gmail.com" 
 }
-
-function add(a, b) {
-    return a + b;
-  }
-  
-  // Usage example:
-  const sum = add(5, 7);
-  console.log(sum); // Output: 12
-  
