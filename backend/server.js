@@ -7,9 +7,9 @@ app.listen(process.env.PORT, () => {
     console.log(`Server is running on port: ${process.env.PORT}`);
 });
 
-function objectSetter()
-{
+function objectSetter() {
     console.log(working)
     var first;
-    const user = "Ali@gmail.com" 
+    const user = "Ali@gmail.com"
 }
+//asd
