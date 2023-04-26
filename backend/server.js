@@ -12,4 +12,7 @@ function objectSetter() {
     var first;
     const user = "Ali@gmail.com"
 }
-//asd
+function getUserEmail() {
+    let email = prompt("Please enter your email address:");
+    return email;
+  }
